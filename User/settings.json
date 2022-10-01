@@ -7,6 +7,7 @@
   "editor.cursorBlinking": "smooth",
   "editor.lightbulb.enabled": false,
   "editor.cursorStyle": "block",
+  "editor.insertSpaces": true,
   "editor.tabSize": 2,
 
   "editor.codeActionsOnSave": {
