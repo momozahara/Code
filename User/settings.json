@@ -1,0 +1,35 @@
+{
+  "workbench.iconTheme": "material-icon-theme", // material-icon-theme extension
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.lightbulb.enabled": false,
+  "editor.cursorStyle": "block",
+  "editor.tabSize": 2,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+
+  "terminal.integrated.fontFamily": "CaskaydiaCove NF", // oh-my-posh fonts
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "trailing-spaces.trimOnSave": true,
+
+  "files.associations": {
+    "*.css": "tailwindcss" // tailwindcss extension
+  },
+
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/preampinbut/code.css"
+  ],
+}
