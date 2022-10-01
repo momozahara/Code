@@ -1,0 +1,14 @@
+{
+	"Tailwind Next Config": {
+		"prefix": "tailwind-next",
+		"body": [
+			"\/** @type {import('tailwindcss').Config} *\/\r\nmodule.exports = {\r\n  content: [\r\n    \".\/pages\/**\/*.{js,ts,jsx,tsx}\",\r\n    \".\/components\/**\/*.{js,ts,jsx,tsx}\",\r\n  ],\r\n  theme: {\r\n    extend: {},\r\n  },\r\n  plugins: [],\r\n}\r\n"
+		]
+	},
+	"Tailwind React Config": {
+		"prefix": "tailwind-react",
+		"body": [
+			"\/** @type {import('tailwindcss').Config} *\/\r\nmodule.exports = {\r\n  content: [\r\n    \".\/src\/**\/*.{js,ts,jsx,tsx}\",\r\n  ],\r\n  theme: {\r\n    extend: {},\r\n  },\r\n  plugins: [],\r\n}\r\n"
+		]
+	}
+}
