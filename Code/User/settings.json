@@ -1,4 +1,6 @@
 {
+  "window.restoreWindows": "none",
+  
   "workbench.iconTheme": "material-icon-theme", // material-icon-theme extension
   "workbench.editor.enablePreview": false,
   "workbench.startupEditor": "none",
