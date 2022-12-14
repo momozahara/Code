@@ -16,7 +16,7 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "jinxdash.prettier-rust", // Prettier - Code formatter (Rust)
   },
-  "[typescript]": {
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
     "editor.codeActionsOnSave": {
       "source.fixAll": true
     },
@@ -42,10 +42,12 @@
     "file:///C:/Users/username/code.css"
   ],
   "explorer.confirmDragAndDrop": false,
-  "rust-analyzer.inlayHints.renderColons": false,
-  "rust-analyzer.inlayHints.parameterHints.enable": false,
-  "rust-analyzer.inlayHints.typeHints.enable": false,
+  
   "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
   "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.inlayHints.renderColons": false,
+  
   "editor.accessibilitySupport": "off",
 }
