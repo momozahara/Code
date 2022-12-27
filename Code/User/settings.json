@@ -1,13 +1,12 @@
 {
   "window.restoreWindows": "none",
 
-  "workbench.iconTheme": "material-icon-theme", // material-icon-theme extension
-  "workbench.editor.enablePreview": true,
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
 
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.cursorBlinking": "smooth",
   "editor.lightbulb.enabled": false,
+  "editor.cursorBlinking": "smooth",
   "editor.cursorStyle": "block",
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
@@ -39,15 +38,30 @@
   },
 
   "vscode_custom_css.imports": [
-    "file:///C:/Users/username/code.css"
+    "file:///C:/Users/preampinbut/code.css"
   ],
   "explorer.confirmDragAndDrop": false,
-  
+
   "rust-analyzer.inlayHints.closingBraceHints.enable": false,
   "rust-analyzer.inlayHints.parameterHints.enable": false,
   "rust-analyzer.inlayHints.chainingHints.enable": false,
   "rust-analyzer.inlayHints.typeHints.enable": false,
   "rust-analyzer.inlayHints.renderColons": false,
-  
+
   "editor.accessibilitySupport": "off",
+
+  "gitlens.views.searchAndCompare.avatars": false,
+  "gitlens.views.commitDetails.avatars": false,
+  "gitlens.views.repositories.avatars": false,
+  "gitlens.views.contributors.avatars": false,
+  "gitlens.views.fileHistory.avatars": false,
+  "gitlens.views.worktrees.avatars": false,
+  "gitlens.views.branches.avatars": false,
+  "gitlens.views.commits.avatars": false,
+  "gitlens.views.remotes.avatars": false,
+  "gitlens.views.tags.avatars": false,
+  "gitlens.hovers.avatars": false,
+  "gitlens.blame.avatars": false,
+  "gitlens.graph.avatars": false,
+  "gitlens.rebaseEditor.ordering": "asc",
 }

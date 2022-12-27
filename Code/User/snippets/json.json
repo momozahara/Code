@@ -2,7 +2,7 @@
 	"Package Lint Script": {
 		"prefix": "lint",
 		"body": [
-			"\"lint\": \"eslint **\/*.{js,jsx,ts,tsx,json}\",\r\n\"lint:fix\": \"eslint **\/*.{js,jsx,ts,tsx,json} --fix\""
+			"\"lint\": \"eslint **\/*.{js,jsx,ts,tsx,json}\""
 		]
 	}
 }
