@@ -13,7 +13,7 @@
 
   "[rust]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "jinxdash.prettier-rust", // Prettier - Code formatter (Rust)
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
   },
   "[javascript][javascriptreact][typescript][typescriptreact]": {
     "editor.codeActionsOnSave": {
