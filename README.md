@@ -10,7 +10,6 @@ My Dev Environment
 [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) \
 [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) \
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) \
-[Prettier - Code formatter (Rust)](https://marketplace.visualstudio.com/items?itemName=jinxdash.prettier-rust) \
 [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma) \
 [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) \
 [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) \
