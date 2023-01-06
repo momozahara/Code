@@ -14,3 +14,11 @@ My Dev Environment
 [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) \
 [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) \
 [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
+
+### Scoop
+[Gcc](https://scoop.sh/#/apps?q=gcc&s=0&d=1&o=true)
+[Make](https://scoop.sh/#/apps?q=make&s=0&d=1&o=true)
+[Ripgrep](https://scoop.sh/#/apps?q=ripgrep&s=0&d=1&o=true)
+
+### Winget
+[Neovim](https://winstall.app/apps/Neovim.Neovim)
