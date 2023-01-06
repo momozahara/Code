@@ -16,8 +16,8 @@ My Dev Environment
 [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
 
 ### Scoop
-[Gcc](https://scoop.sh/#/apps?q=gcc&s=0&d=1&o=true)
-[Make](https://scoop.sh/#/apps?q=make&s=0&d=1&o=true)
+[Gcc](https://scoop.sh/#/apps?q=gcc&s=0&d=1&o=true) \
+[Make](https://scoop.sh/#/apps?q=make&s=0&d=1&o=true) \
 [Ripgrep](https://scoop.sh/#/apps?q=ripgrep&s=0&d=1&o=true)
 
 ### Winget
