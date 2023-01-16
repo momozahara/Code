@@ -1,0 +1,8 @@
+{
+	"eslint-react": {
+		"prefix": "eslint-react",
+		"body": [
+			"call yarn add ^\r\neslint ^\r\nprettier ^\r\neslint-config-prettier ^\r\neslint-plugin-prettier ^\r\neslint-plugin-react ^\r\n@typescript-eslint\/parser"
+		]
+	}
+}
