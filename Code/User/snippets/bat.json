@@ -4,5 +4,11 @@
 		"body": [
 			"call yarn add ^\r\neslint ^\r\nprettier ^\r\neslint-config-prettier ^\r\neslint-plugin-prettier ^\r\neslint-plugin-react ^\r\n@typescript-eslint\/parser"
 		]
+	},
+	"eslint-next": {
+		"prefix": "eslint-next",
+		"body": [
+			"call yarn add ^\r\neslint ^\r\nprettier ^\r\neslint-config-next ^\r\neslint-config-prettier ^\r\neslint-plugin-prettier ^"
+		]
 	}
 }

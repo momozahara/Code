@@ -4,5 +4,11 @@
 		"body": [
 			"\"lint\": \"eslint **\/*.{js,jsx,ts,tsx,json}\""
 		]
+	},
+	"Package Lint Script Next": {
+		"prefix": "lint-next",
+		"body": [
+			"\"lint\": \"next lint --dir .\""
+		]
 	}
 }
