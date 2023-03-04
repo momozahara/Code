@@ -36,16 +36,16 @@ bar:
       background: "#ffffff33"
       margin: "0 4px 0 0"
       padding: "0 8px"
-    - type: "battery"
-      label_draining: "{battery_level}% remaining"
-      label_power_saver: "{battery_level}% (power saver)"
-      label_charging: "{battery_level}% (charging)"
-      margin: "0 0 0 10px"
-    - type: "clock"
-      # Documentation on formatting date/time string:
-      # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: "HH:mm tt  dd/MM/yy"
-      margin: "0 0 0 10px"
+    # - type: "battery"
+    #   label_draining: "{battery_level}% remaining"
+    #   label_power_saver: "{battery_level}% (power saver)"
+    #   label_charging: "{battery_level}% (charging)"
+    #   margin: "0 0 0 10px"
+    # - type: "clock"
+    #   # Documentation on formatting date/time string:
+    #   # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
+    #   time_formatting: "HH:mm tt  dd/MM/yy"
+    #   margin: "0 0 0 10px"
 
 workspaces:
   - name: "1"
