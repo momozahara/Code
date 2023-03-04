@@ -1,8 +1,13 @@
 # Dev
 My Dev Environment
 
-### Window Tiling Manager
+![Desktop](/images/desktop.png)
+
+### Desktop Setup (Windows 11)
+- Window Tiling Manager\
 [GlazeWM](https://github.com/lars-berger/GlazeWM)
+- Transparent Taskbar\
+[TranslicentTB](https://www.microsoft.com/store/productId/9PF4KZ2VN4W9)
 
 ### PowerShell
 [Oh My Posh](https://ohmyposh.dev/)
