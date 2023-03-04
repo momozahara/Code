@@ -8,6 +8,8 @@ My Dev Environment
 [GlazeWM](https://github.com/lars-berger/GlazeWM)
 - Transparent Taskbar\
 [TranslicentTB](https://www.microsoft.com/store/productId/9PF4KZ2VN4W9)
+- Focus Window Highlight (Credit Inside)\
+[AHK Script](/AutoHotkey/focus-window.ahk)
 
 ### PowerShell
 [Oh My Posh](https://ohmyposh.dev/)
