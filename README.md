@@ -1,6 +1,9 @@
 # Dev
 My Dev Environment
 
+### Window Tiling Manager
+[GlazeWM](https://github.com/lars-berger/GlazeWM)
+
 ### PowerShell
 [Oh My Posh](https://ohmyposh.dev/)
 
