@@ -76,9 +76,6 @@ window_rules:
   - command: "resize borders 0px -7px -7px -7px"
     match_process_name: "steam"
 
-  - command: "set width 792px"
-    match_process_name: "Spotify"
-
 binding_modes:
   - name: "resize"
     keybindings:
