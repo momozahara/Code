@@ -1,3 +1,9 @@
+globals: # if my pull request got merge
+  - name: "username"
+    value: "preampinbut" # you know my name?
+  - name: "password"
+    value: "I will fall in \"Love\" more and more." # not my password
+
 gaps:
   inner_gap: 20
   outer_gap: 20
@@ -63,10 +69,6 @@ window_rules:
   # the WM as admin.
   - command: "ignore"
     match_process_name: "Taskmgr"
-  - command: "ignore"
-    match_process_name: "ffxiv_dx11"
-  - command: "ignore"
-    match_process_name: "Advanced Combat Tracker"
 
   # Launches system dialogs as floating by default (eg. File Explorer save/open dialog).
   - command: "set floating"
@@ -95,13 +97,13 @@ binding_modes:
 keybindings:
   # Shift focus in a given direction.
   - command: "focus left"
-    bindings: ["Alt+H"]
+    bindings: ["Alt+H", "Alt+Control+Left"]
   - command: "focus right"
-    bindings: ["Alt+L"]
+    bindings: ["Alt+L", "Alt+Control+Right"]
   - command: "focus up"
-    bindings: ["Alt+K"]
+    bindings: ["Alt+K", "Alt+Control+Up"]
   - command: "focus down"
-    bindings: ["Alt+J"]
+    bindings: ["Alt+J", "Alt+Control+Down"]
 
   # Move focused window in a given direction.
   - command: "move left"
@@ -160,9 +162,8 @@ keybindings:
   - command: "reload config"
     binding: "Alt+Shift+R"
 
-  # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
   # to start Windows Terminal and Git Bash respectively.
-  - command: "exec powershell"
+  - command: "exec_a {{username}} {{password}} powershell" # if my pull request got merge
     binding: "Alt+Enter"
 
   # Focus the workspace that last had focus.
