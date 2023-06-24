@@ -1,5 +1,5 @@
-# Dev
-My Dev Environment
+# Dev (Mostly deprecated)
+My Windows Dev Environment currently hop on to linux
 
 ![Desktop](/images/desktop.png)
 
