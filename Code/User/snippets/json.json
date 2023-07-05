@@ -1,14 +1,20 @@
 {
-	"Package Lint Script": {
-		"prefix": "lint",
-		"body": [
-			"\"lint\": \"eslint **\/*.{js,jsx,ts,tsx,json}\""
-		]
-	},
-	"Package Lint Script Next": {
-		"prefix": "lint-next",
-		"body": [
-			"\"lint\": \"next lint --dir .\""
-		]
-	}
+  "Package Lint Script": {
+    "prefix": "lint",
+    "body": [
+      "\"lint\": \"eslint **\/*.{js,jsx,ts,tsx,json}\""
+    ]
+  },
+  "Package Lint Script Next": {
+    "prefix": "lint-next",
+    "body": [
+      "\"lint\": \"next lint --dir .\""
+    ]
+  },
+  "Launch Json Rust": {
+    "prefix": "launch-rust",
+    "body": [
+      "{\n  \"version\": \"0.2.0\",\n  \"configurations\": [\n    {\n      \"name\": \"Debug\",\n      \"type\": \"lldb\",\n      \"request\": \"launch\",\n      \"program\": \"\\${workspaceFolder}/target/debug/$1\",\n      \"args\": [],\n      \"cwd\": \"\\${workspaceFolder}\"\n    }\n  ]\n}\n"
+    ]
+  }
 }
