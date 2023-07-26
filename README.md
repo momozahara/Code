@@ -3,6 +3,9 @@ My Windows Dev Environment currently hop on to linux and lunarvim
 
 ![Desktop](/images/desktop.png)
 
+### Snippet (used by [luasnip](https://github.com/momozahara/dotfile/blob/main/.config/lvim/lua/plugins/snippet.lua))
+[snippets](/Code/User/snippets)
+
 ### Desktop Setup (Windows 11) (deprecated)
 - Window Tiling Manager\
 [GlazeWM](https://github.com/lars-berger/GlazeWM)
