@@ -1,0 +1,14 @@
+{
+	"eslint-react": {
+		"prefix": "eslint-react",
+		"body": [
+			"yarn add -D \\\r\neslint \\\r\nprettier \\\r\neslint-config-prettier \\\r\neslint-plugin-prettier \\\r\neslint-plugin-react \\\r\n@typescript-eslint\/parser"
+		]
+	},
+	"eslint-next": {
+		"prefix": "eslint-next",
+		"body": [
+			"yarn add -D \\\r\neslint \\\r\nprettier \\\r\neslint-config-next \\\r\neslint-config-prettier \\\r\neslint-plugin-prettier \\"
+		]
+	}
+}
