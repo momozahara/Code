@@ -1,5 +1,5 @@
 # Dev (Mostly deprecated)
-My Windows Dev Environment currently hop on to linux
+My Windows Dev Environment currently hop on to linux and lunarvim
 
 ![Desktop](/images/desktop.png)
 
@@ -14,7 +14,7 @@ My Windows Dev Environment currently hop on to linux
 ### PowerShell (deprecated)
 [Oh My Posh](https://ohmyposh.dev/)
 
-### Visual Studio Code Extensions (up to date)
+### Visual Studio Code Extensions (deprecated)
 [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) \
 [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) \
 [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) \
