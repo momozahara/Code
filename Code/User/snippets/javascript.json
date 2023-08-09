@@ -14,13 +14,13 @@
   "Eslint T3 Config": {
     "prefix": "eslint-t3",
     "body": [
-      "\/** @type {import(\"eslint\").Linter.Config} *\/\r\nconst config = {\r\n  parser: \"@typescript-eslint\/parser\",\r\n  parserOptions: {\r\n    project: true,\r\n  },\r\n  plugins: [\"@typescript-eslint\", \"prettier\"],\r\n  extends: [\r\n    \"eslint:recommended\",\r\n    \"next\/core-web-vitals\",\r\n    \"plugin:@typescript-eslint\/recommended-type-checked\",\r\n    \"plugin:@typescript-eslint\/stylistic-type-checked\",\r\n    \"plugin:prettier\/recommended\",\r\n  ],\r\n  rules: {\r\n    \"@typescript-eslint\/consistent-type-imports\": [\r\n      \"warn\",\r\n      {\r\n        prefer: \"type-imports\",\r\n        fixStyle: \"inline-type-imports\",\r\n      },\r\n    ],\r\n    \"@typescript-eslint\/no-unused-vars\": [\r\n      \"warn\",\r\n      {\r\n        argsIgnorePattern: \"^_\",\r\n      },\r\n    ],\r\n    curly: \"error\",\r\n    camelcase: \"error\",\r\n    eqeqeq: \"error\",\r\n    \"no-undef\": \"off\",\r\n    \"no-useless-escape\": \"off\",\r\n    \"object-curly-newline\": [\r\n      \"error\",\r\n      {\r\n        ObjectExpression: \"always\",\r\n        ObjectPattern: {\r\n          multiline: true,\r\n        },\r\n      },\r\n    ],\r\n  },\r\n};\r\n\r\nmodule.exports = config;\r\n"
+      "\/** @type {import(\"eslint\").Linter.Config} *\/\r\nconst config = {\r\n  parser: \"@typescript-eslint\/parser\",\r\n  parserOptions: {\r\n    project: true,\r\n  },\r\n  plugins: [\"@typescript-eslint\", \"prettier\"],\r\n  extends: [\r\n    \"eslint:recommended\",\r\n    \"next\/core-web-vitals\",\r\n    \"plugin:@typescript-eslint\/recommended-type-checked\",\r\n    \"plugin:@typescript-eslint\/stylistic-type-checked\",\r\n    \"plugin:prettier\/recommended\",\r\n    \"plugin:tailwindcss\/recommended\",\r\n  ],\r\n  rules: {\r\n    \"@typescript-eslint\/consistent-type-imports\": [\r\n      \"warn\",\r\n      {\r\n        prefer: \"type-imports\",\r\n        fixStyle: \"inline-type-imports\",\r\n      },\r\n    ],\r\n    \"@typescript-eslint\/no-unused-vars\": [\r\n      \"warn\",\r\n      {\r\n        argsIgnorePattern: \"^_\",\r\n      },\r\n    ],\r\n    \"tailwindcss\/no-custom-classname\": \"off\",\r\n    curly: \"error\",\r\n    camelcase: \"error\",\r\n    eqeqeq: \"error\",\r\n    \"no-undef\": \"off\",\r\n    \"no-useless-escape\": \"off\",\r\n    \"object-curly-newline\": [\r\n      \"error\",\r\n      {\r\n        ObjectExpression: \"always\",\r\n        ObjectPattern: {\r\n          multiline: true,\r\n        },\r\n      },\r\n    ],\r\n  },\r\n};\r\n\r\nmodule.exports = config;\r\n"
     ]
   },
   "Prettier T3 Config": {
     "prefix": "prettier-t3",
     "body": [
-      "\/** @type {import(\"prettier\").Config} *\/\r\nconst config = {\r\n  plugins: [require.resolve(\"prettier-plugin-tailwindcss\")],\r\n  singleAttributePerLine: true,\r\n  endOfLine: \"auto\",\r\n};\r\n\r\nmodule.exports = config;\r\n"
+      "\/** @type {import(\"prettier\").Config} *\/\r\nconst config = {\r\n  singleAttributePerLine: true,\r\n  endOfLine: \"auto\",\r\n};\r\n\r\nmodule.exports = config;\r\n"
     ]
   }
 }
